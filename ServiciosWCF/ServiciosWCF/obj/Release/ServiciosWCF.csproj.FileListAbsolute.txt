@@ -1,0 +1,5 @@
+D:\UPC\Moviles\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.dll
+D:\UPC\Moviles\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.pdb
+D:\UPC\Moviles\ServiciosWCF\ServiciosWCF\obj\Release\ServiciosWCF.csprojResolveAssemblyReference.cache
+D:\UPC\Moviles\ServiciosWCF\ServiciosWCF\obj\Release\ServiciosWCF.dll
+D:\UPC\Moviles\ServiciosWCF\ServiciosWCF\obj\Release\ServiciosWCF.pdb

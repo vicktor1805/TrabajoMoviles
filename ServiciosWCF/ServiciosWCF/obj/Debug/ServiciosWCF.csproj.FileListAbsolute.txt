@@ -1,0 +1,5 @@
+D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.dll
+D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.pdb
+D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.csprojResolveAssemblyReference.cache
+D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.dll
+D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.pdb

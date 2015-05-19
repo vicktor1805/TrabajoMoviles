@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Moviles2">
+  <DataContextMoniker Name="/Moviles2DataContext" />
+  <nestedChildShapes>
+    <classShape Id="b0ec3aa6-4f2e-4955-8712-ec2cc1a8f99d" absoluteBounds="0.75, 0.875, 2, 1.5785953776041664">
+      <DataClassMoniker Name="/Moviles2DataContext/Articulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="36e19457-4321-4670-80b1-59052d48db3a" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5a8def4-ae1b-49c4-86ba-98a593bf8ca7" absoluteBounds="0.75, 3.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Moviles2DataContext/Autor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5fbcf522-704e-45f6-bac3-5e51c334db75" absoluteBounds="0.765, 4.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e2b0f795-ca5d-47bf-b86c-2190d1580a99" absoluteBounds="3.5, 1, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/Moviles2DataContext/AutorxArticulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9d300b50-0aa1-4af8-809e-589ec06e7b65" absoluteBounds="3.515, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ef5a6c7-8cc3-4488-a374-9a854ad2cbe4" absoluteBounds="3.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Moviles2DataContext/Dispositivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0e88aa2-1907-41eb-8195-ab632598166a" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b88ecf75-4063-466f-894b-a37a1fc39983" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/Moviles2DataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33245435-f5ea-4e92-832c-18441d4f39a3" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.69314697265625); (3.5 : 1.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Moviles2DataContext/Articulo/Articulo_AutorxArticulo" />
+      <nodes>
+        <classShapeMoniker Id="b0ec3aa6-4f2e-4955-8712-ec2cc1a8f99d" />
+        <classShapeMoniker Id="e2b0f795-ca5d-47bf-b86c-2190d1580a99" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.42234537760417); (3.59375 : 5.42234537760417); (3.59375 : 2.3862939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/Moviles2DataContext/Autor/Autor_AutorxArticulo" />
+      <nodes>
+        <classShapeMoniker Id="e5a8def4-ae1b-49c4-86ba-98a593bf8ca7" />
+        <classShapeMoniker Id="e2b0f795-ca5d-47bf-b86c-2190d1580a99" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

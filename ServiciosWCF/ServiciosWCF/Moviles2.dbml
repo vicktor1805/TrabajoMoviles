@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBMoviles" Class="Moviles2DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=DBMoviles;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DBMovilesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Articulo" Member="Articulo">
+    <Type Name="Articulo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="fechaIngreso" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="estado" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="Articulo_AutorxArticulo" Member="AutorxArticulo" ThisKey="id" OtherKey="idArticulo" Type="AutorxArticulo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Autor" Member="Autor">
+    <Type Name="Autor">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="nacionalidad" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="fechaNacimiento" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="Autor_AutorxArticulo" Member="AutorxArticulo" ThisKey="id" OtherKey="idAutor" Type="AutorxArticulo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AutorxArticulo" Member="AutorxArticulo">
+    <Type Name="AutorxArticulo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idAutor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idArticulo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Articulo_AutorxArticulo" Member="Articulo" ThisKey="idArticulo" OtherKey="id" Type="Articulo" IsForeignKey="true" />
+      <Association Name="Autor_AutorxArticulo" Member="Autor" ThisKey="idAutor" OtherKey="id" Type="Autor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Dispositivo" Member="Dispositivo">
+    <Type Name="Dispositivo">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mac" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="numeroSerie" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="fechaCompra" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuario" Member="Usuario">
+    <Type Name="Usuario">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="identificador" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
