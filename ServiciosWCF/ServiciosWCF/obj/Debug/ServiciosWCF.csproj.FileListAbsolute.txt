@@ -3,3 +3,8 @@ D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.pdb
 D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.csprojResolveAssemblyReference.cache
 D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.dll
 D:\UPC\TID\Proyectos Visual\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.pdb
+C:\Users\USUARIO\Google Drive\UPC\2015-1\Moviles\TrabajoMoviles.git\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.dll
+C:\Users\USUARIO\Google Drive\UPC\2015-1\Moviles\TrabajoMoviles.git\ServiciosWCF\ServiciosWCF\bin\ServiciosWCF.pdb
+C:\Users\USUARIO\Google Drive\UPC\2015-1\Moviles\TrabajoMoviles.git\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Google Drive\UPC\2015-1\Moviles\TrabajoMoviles.git\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.dll
+C:\Users\USUARIO\Google Drive\UPC\2015-1\Moviles\TrabajoMoviles.git\ServiciosWCF\ServiciosWCF\obj\Debug\ServiciosWCF.pdb
